@@ -1,73 +1,47 @@
-💳 Credit Card Fraud Detection (Web-Based)
-A frontend-only project that simulates credit card fraud detection using HTML, CSS, and JavaScript. It features a responsive, form-based interface for inputting transaction and personal details, demonstrating how a real-world fraud detection interface may work.
+💳 Credit Card Fraud Detection Web App
 
-📂 Project Structure
-plaintext
-Copy
-Edit
-credit-card-fraud-detection/
-│
-├── index.html       # Main frontend interface
-├── index.css        # Styling for the form and layout
-├── build_model.ipynb (optional) # Placeholder for backend logic (if any)
-✅ Features
-Responsive UI with Bootstrap integration
 
-Form validation using HTML5 and Bootstrap
+This repository outlines the development and deployment process of a Credit Card Fraud Detection web application hosted on Heroku. Due to the sensitive nature of credit card data, only anonymized and dimensionally-reduced datasets are used.
 
-Organized input sections:
+🔍 What This Project Covers
+🧠 Model Training
+Algorithm: Logistic Regression with class_weight=balanced
 
-User Details
+Performance:
 
-Transaction Details
+Accuracy: 97.6%
 
-Merchant Information
+Recall: 89.6%
 
-Form input validation (e.g., credit card pattern, ZIP code, required fields)
+🌐 Web App Structure
+Procfile – Defines the type of application for Heroku deployment.
 
-Stylish gradients and modern UI layout with custom CSS
+requirements.txt – Contains all Python dependencies.
 
-🛠 Technologies Used
-HTML5 – Form creation and structure
+/templates/ – HTML files used for rendering the frontend.
 
-CSS3 – Custom styling and layout enhancements
+/static/ – Contains CSS and other static assets.
 
-Bootstrap 4 – Responsive design and validation feedback
+app.py – Main Flask application file.
 
-JavaScript – Client-side validation logic (basic)
+📄 Report
+A detailed explanation of the project lifecycle, including EDA, preprocessing, training, evaluation, and deployment, is available in:
 
-🚀 How to Run
-Clone or download this repository:
+FinalReport.md
 
-bash
-Copy
-Edit
-git clone 
-Open the folder and double-click index.html, or run it via a local server:
+FinalReport.pdf
 
-bash
-Copy
-Edit
-open index.html   # macOS
-start index.html  # Windows
-🔍 Project Flow (Frontend Only)
-User opens the form in a browser.
+📁 Sample Data
+fraud_values.csv – Sample test data for fraudulent transactions.
 
-Inputs required data: card number, transaction info, location, merchant details.
+valid_values.csv – Sample test data for legitimate transactions.
 
-On submission, the form validates input fields client-side.
+🚀 Live Demo
+Try out our web app here:
+🔗 Credit Card Fraud Detection Web App
 
-If connected to a backend (/detect), it would then send the data for real-time fraud detection.
-
-🧠 Possible Enhancements
-Integrate a real backend using Flask or Node.js to process detection
-
-Use a pre-trained ML model from build_model.ipynb
-
-Add visual fraud probability indicators
-
-Store and display transaction history using localStorage or database
-
-📜 License
-Open-source project under the MIT License.
+👥 Contact
+RITESH PAITHANKAR
+LINKEDIN - https://www.linkedin.com/in/ritesh-paithankar-4b43a828a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FTgIxn%2BmSjiFfkfj6v9ugw%3D%3D
+INSTAGRAM - https://www.instagram.com/ritesh_paithankar_96_k/?__pwa=1#
 
