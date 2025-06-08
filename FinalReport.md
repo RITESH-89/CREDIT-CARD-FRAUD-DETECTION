@@ -136,14 +136,6 @@ Credit Card is a great tool to pay money easily, but as with all the other monet
 Machine Learning is a great tool to do this work since Machine Learning helps us in finding patterns in the data. Machine Learning can help producing great results if  provided enough amount of data. Also, with further advances in the technology, Machine Learning too will advance with time, it will be easy for a person to predict if a transaction is fraud or not much more accurately with the advances.
 
 
-## References
-***
-
-[Credit Card Fraud Detection Repository -- Github](https://github.com/saarques/credit-card-fraud-detection)
-
-[Model training Repository](https://github.com/RK1126/Temp/blob/master/Credit%20Card%20Fraud%20Detection.ipynb)
-
-
 
 
 
