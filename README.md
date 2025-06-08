@@ -42,7 +42,7 @@ Clone or download this repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/credit-card-fraud-detection.git
+git clone 
 Open the folder and double-click index.html, or run it via a local server:
 
 bash
