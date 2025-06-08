@@ -139,8 +139,6 @@ Machine Learning is a great tool to do this work since Machine Learning helps us
 ## References
 ***
 
-[Web App](https://credit-card-fraud-detect-ion.herokuapp.com/)
-
 [Credit Card Fraud Detection Repository -- Github](https://github.com/saarques/credit-card-fraud-detection)
 
 [Model training Repository](https://github.com/RK1126/Temp/blob/master/Credit%20Card%20Fraud%20Detection.ipynb)
